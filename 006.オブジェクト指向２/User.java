@@ -12,7 +12,6 @@ import java.util.ArrayList;
  */
 public class User extends Human {
     
-//           絵札の数字の変更もここで管理する
 //@override  ArrayListで受けたカード情報をmyCardsに追加する
     public void setCard(ArrayList<Integer> a){
         for(int i=0; i<a.size(); i++){
@@ -20,7 +19,6 @@ public class User extends Human {
         }
     }
 //@override  myCardsを確認し、まだカードが必要ならtrue、必要無ければfalseを返却する
-     //      Aの判定もここで行います。
     public boolean checkSum(){
         return false;
     }
